@@ -4,11 +4,11 @@ const sleep = require('util').promisify(setTimeout);
 // Configure TronWeb
 const tronWeb = new TronWeb({
     fullHost: 'https://api.trongrid.io',
-    privateKey: 'f1f464c1abb9ad92fa43be889aae5a9f16ca27c9fc79c812e3a6dafe6fec59db'
+    privateKey: 'your key'
 });
 
 // Address to send TRX to
-const destinationAddress = 'TKbZQ7yUugNFa9FVzANgz1APcyAsgLfjje';
+const destinationAddress = 'youraddress';
 
 // Function to estimate gas fee based on transaction size
 async function estimateGasFee() {
